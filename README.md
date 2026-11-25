@@ -107,3 +107,8 @@ The component does not contain any conditional logic such as if statements, swit
 
 No. While 100% coverage shows that all lines and statements were executed during testing, coverage percentages do not guarantee that the application is free of defects. Additional testing is still needed to verify correct behavior in all situations.
 
+## Step 9 Compare the Two Approaches
+One test idea discovered through exploratory testing was selecting the buttons multiple times in different sequences to verify that the displayed count updated correctly after each action.
+One test idea discovered by reading the source code was ensuring that each state-changing statement (setCount(count + 1), setCount(count - 1), and setCount(0)) was executed at least once.
+Viewing the code made it easier to identify the exact statements that needed to be tested and helped ensure complete statement coverage.
+A limitation of exploratory testing is that important code paths may be missed because the tester does not know the internal implementation. A limitation of white-box testing is that it focuses on the code structure and may overlook usability issues or unexpected user behavior.
