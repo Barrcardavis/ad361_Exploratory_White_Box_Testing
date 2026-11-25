@@ -86,3 +86,24 @@ The displayed count was verified after each action.
 
 ## Step 7: Terminal Screenshot
 <img width="1279" height="645" alt="image" src="https://github.com/user-attachments/assets/ff8ed17f-5b8f-4d71-b448-6ca73c5b8573" />
+
+## Step 8: Discussion
+#### Coverage Table
+<img width="771" height="183" alt="image" src="https://github.com/user-attachments/assets/fdbd9f00-0e80-4bcd-b6d5-aabc65cb58b3" />
+
+Which parts of the component your tests executed
+
+The tests executed every part of the component, including the initial rendering, the Increment button, the Decrement button, the Reset button, and a sequence of multiple button selections.
+
+Whether any statements remained untested
+
+No statements remained untested. All state-changing statements were executed by the test suite, resulting in 100% statement coverage.
+
+Why the component may report few or no branches
+
+The component does not contain any conditional logic such as if statements, switch statements, or ternary operators. Because there are no decision points, branch coverage is not a significant factor for this component.
+
+Whether the percentage alone proves that the component works correctly
+
+No. While 100% coverage shows that all lines and statements were executed during testing, coverage percentages do not guarantee that the application is free of defects. Additional testing is still needed to verify correct behavior in all situations.
+
